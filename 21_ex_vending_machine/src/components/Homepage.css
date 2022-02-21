@@ -1,0 +1,24 @@
+.Homepage {
+  height: 100vh;
+}
+.Homepage-products {
+  width: 200px;
+  border: 1px white solid;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: 4em;
+  background-color: black;
+}
+
+.Homepage-products a {
+  color: white;
+  text-decoration: none;
+  margin: auto;
+  /* width: fit-content; */
+}
+
+.Homepage h2 {
+  margin: 0;
+  padding: 20px;
+}

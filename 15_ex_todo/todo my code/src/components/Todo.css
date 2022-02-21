@@ -1,0 +1,35 @@
+.Todo{
+	margin-top: 0;
+	width: 100%;
+	font-weight: bold;
+	color:white;
+	font-size: 19px;
+	align-items: center;
+}
+
+.Todo-container{
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 5px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width:99%;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.Todo-container p{
+	width:200px;
+}
+.Todo-container input{
+	font-size: 19px;
+}
+
+.Todo-buttons-container button{
+	background-color: transparent;
+	color:white;
+	font-size: 19px;
+	font-weight: bold;
+	height:100%;
+}

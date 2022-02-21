@@ -1,0 +1,38 @@
+ @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+
+body {
+		background-color: rgb(7, 7, 53);
+		margin: 0;
+}
+.TodoList{
+	height:100%;
+	margin-top: 0;
+
+}
+.TodoList h3{
+		text-align: center;
+}
+.TodoList-container{
+	width:500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: tomato;
+	min-height:500px;
+	margin-top: 100px;
+	display:flex;
+	justify-content: center;
+}
+
+.TodoList-item-container{
+	width: 100%;
+}
+
+.TodoList .item-container{
+	text-align: center;
+	height: auto;
+	display: flex; 
+	align-items: center;
+	justify-content: space-around;
+	width:100%;
+} 

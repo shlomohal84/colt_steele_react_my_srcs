@@ -1,0 +1,20 @@
+.Snack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Snack img {
+  width: 100px;
+  position: absolute;
+  z-index: 1;
+}
+
+.Snack button {
+  padding: 15px;
+}
+
+.Snack button:active,
+.Snack button:focus {
+  outline: none;
+}

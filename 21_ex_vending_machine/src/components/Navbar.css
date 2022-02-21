@@ -1,0 +1,17 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #1d1d1d98;
+  height: 3em;
+  font-size: 20px;
+}
+
+.Navbar a {
+  color: white;
+  text-decoration: none;
+}
+.Navbar .Navbar-active-link {
+  font-weight: 700;
+  border-bottom: white 1px solid;
+}

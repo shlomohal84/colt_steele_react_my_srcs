@@ -1,0 +1,32 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans'); */
+/* @import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css"); */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+img {
+  width: 50%;
+}
+
+.App-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+  font-size: 50px;
+}
+.App-nav a {
+  text-decoration: none;
+  transition: color 1s;
+  transition: opacity 1s;
+  font-weight: 700;
+}
+.App-nav a:hover {
+  opacity: 50%;
+}
+.nav-active {
+  border-bottom: black 1px solid;
+  color: blue;
+}

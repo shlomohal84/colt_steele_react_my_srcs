@@ -1,0 +1,19 @@
+.NewTodoForm{
+	display: flex;
+	align-self: flex-end;
+	justify-content: center;
+	position:absolute;
+	margin-bottom: 2em;
+	align-items: center;
+}
+
+
+.NewTodoForm input{
+	font-size: 19px;
+}
+
+.NewTodoForm button{
+	font-size: 19px;
+	height:100%
+}
+

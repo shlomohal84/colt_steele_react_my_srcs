@@ -1,0 +1,31 @@
+.Lottery{
+	border:1px solid rgba(0, 0, 0, 0.342);
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 5px;
+	width:500px;
+	margin-bottom: 3em;
+	background-color: beige;
+}
+
+.Lottery-balls-container{
+	display:flex;
+	justify-content: space-evenly;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:3em;
+	padding-right: 3em;
+	margin-bottom: 1.5em;
+
+}
+
+.Lottery-generate-button{
+	margin-bottom: 2em;
+	background-color: darkblue;
+	border-radius: 2px;
+	border:transparent;
+	width:100px;
+	height:2em;
+	color:white
+}
+

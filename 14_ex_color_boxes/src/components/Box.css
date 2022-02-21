@@ -1,0 +1,5 @@
+.Box .box-container {
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+}

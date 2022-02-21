@@ -1,0 +1,64 @@
+{
+	"workbench.startupEditor": "none",
+	"editor.minimap.enabled": false,
+	"editor.formatOnType": true,
+	"editor.cursorBlinking": "expand",
+	"editor.insertSpaces": false,
+	"workbench.colorTheme": "Community Material Theme Palenight",
+	"workbench.iconTheme": "material-icon-theme",
+	"emmet.includeLanguages": {
+		"ejs": "html"
+	},
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"editor.formatOnPaste": true,
+	"editor.tabSize": 2,
+	"editor.formatOnSave": true,
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": [
+					"variable.other.constant",
+					"variable.other.readwrite"
+				],
+				"settings": {
+					"foreground": "#87cefa"
+				}
+			},
+			{
+				"scope": "variable.parameter",
+				"settings": {
+					"foreground": "#c0c0c0"
+				}
+			}
+		]
+	},
+	"editor.semanticHighlighting.enabled": true,
+	"html.format.enable": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"color-highlight.markerType": "dot-before",
+	"color-highlight.markRuler": false,
+	"powermode.explosionSize": 3,
+	"powermode.explosionOffset": 0.6,
+	"powermode.comboTimeout": 0,
+	"powermode.enabled": true,
+	"powermode.enableStatusBarComboTimer": false,
+	"powermode.presets": "flames",
+	"extensions.autoUpdate": false,
+	"reactSnippets.settings.singleQuote": false,
+	"javascript.preferences.quoteStyle": "double",
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.cursorStyle": "underline",
+	"window.zoomLevel": 1,
+	"terminal.integrated.fontSize": 12,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	}
+}
